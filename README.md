@@ -18,7 +18,7 @@ O projeto consiste em três componentes principais:
 
 Para executar o projeto localmente, siga estas etapas:
 
-1. Clone este repositório para o seu ambiente de desenvolvimento.
+1. Clone este repositório para o seu ambiente de desenvolvimento. Com o git clone https://github.com/Thales-Alencar/Hiring-Challenge.git
 
 2. Navegue até o diretório raiz do projeto.
 
