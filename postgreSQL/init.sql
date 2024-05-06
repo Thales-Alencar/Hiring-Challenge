@@ -1,0 +1,8 @@
+CREATE TABLE charges (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  government_id VARCHAR(50) UNIQUE NOT NULL,
+  email VARCHAR(100) UNIQUE NOT NULL,
+  debt_amount DECIMAL(10,2) NOT NULL,
+  debt_due_date VARCHAR(255) NOT NULL
+);

@@ -1,0 +1,30 @@
+version: '3.9'
+services:
+  backend:
+    image: thalesalc/backend:1.0
+    ports:
+      - "3002:3003"
+    depends_on:
+      - db
+    networks:
+      - minha-rede
+  db:
+    image: thalesalc/postgres:1.0
+    environment:
+      POSTGRES_DB: charge
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: root
+      ports:
+        -"5432:5232"
+    networks:
+      - minha-rede
+  frontend:
+    image: thalesalc/frontend:1.0
+    ports:
+      - "3001:80"
+    networks:
+      - minha-rede
+
+networks:
+  minha-rede:
+    driver: bridge
