@@ -31,5 +31,3 @@ Para executar o projeto localmente, siga estas etapas:
 6. Abra um navegador da web e acesse `http://localhost:3001` para interagir com o aplicativo frontend.
 
 7. Preencha o formulário de cobranças e envie os dados. Verifique se os dados são salvos corretamente no banco de dados.
-
-Obs: O pedido do desafio foi que a aplicação estivesse rodando com dockercompose. Porem infelizmente essa parte não pude entregar, apesar dos meus esforços esse é um ponto que levarei a diante no meus estudos. Mas sei que esses esforços seram bem aproveitados com o aprendizado que a Kanastra pode me proporcionar.
